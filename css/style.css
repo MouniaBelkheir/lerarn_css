@@ -144,3 +144,16 @@ div p,
 div.title {
 	color: green;
 }
+/*! Assignment 2 */
+div {
+    display: block;
+    max-width: 400px;
+    max-height: 15px;
+    width: fit-content;
+    background-color: rgb(134, 7, 7);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
