@@ -93,7 +93,7 @@
 } */
 /* ! Lessons 9-12 */
 /*! Assignment 1 */
-div {
+/* div {
 	display: inline-block;
 	outline: 5px solid black;
 	background-color: rgb(197, 190, 190);
@@ -113,4 +113,22 @@ div {
 	border-width: 5px;
 	border-color: red green blue yellow;
 	border-style: dashed;
+} */
+/*! Assignment 2 */
+.element {
+	width: 400px;
+	background-color: rgb(228, 226, 226);
+	outline: 10px solid rgb(228, 226, 226);
+	padding: 10px;
+	margin: 30px;
+}
+.element-1 {
+	border-left: 5px solid rgb(185, 47, 89);
+}
+.element-2 {
+	visibility:hidden;
+	border-left: 5px solid rgb(15, 88, 171);
+}
+.element-3 {
+	border-left: 5px solid rgb(3, 142, 118);
 }
