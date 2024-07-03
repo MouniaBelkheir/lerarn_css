@@ -115,7 +115,7 @@
 	border-style: dashed;
 } */
 /*! Assignment 2 */
-.element {
+/* .element {
 	width: 400px;
 	background-color: rgb(228, 226, 226);
 	outline: 10px solid rgb(228, 226, 226);
@@ -131,4 +131,16 @@
 }
 .element-3 {
 	border-left: 5px solid rgb(3, 142, 118);
+} */
+/* ! Lessons 13-16 */
+/*! Assignment 1 */
+div div span {
+	color: red;
+}
+div span {
+	color: blue;
+}
+div p,
+div.title {
+	color: green;
 }
