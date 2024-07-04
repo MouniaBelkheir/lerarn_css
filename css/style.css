@@ -225,8 +225,7 @@ p {
 	font-weight: 400;
 } */
 /*! Assignment 3 */
-
-html {
+/* html {
 	font-family: sans-serif;
 	font-size: 20px;
 }
@@ -238,4 +237,35 @@ html {
 }
 .three {
 	font-size: 1.5rem;
+} */
+/* ! Lessons 27-29 */
+/*! Assignment 1 */
+.parent {
+	width: 1500px;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+}
+.full,
+.tier,
+.half,
+.quar {
+	float: left;
+	background-color: #d7b2b2d6;
+	padding: 15px 0;
+	margin: 15px 0;
+	margin-left: 15px;
+}
+.full {
+	width: calc((100% - 30px));
+}
+.tier {
+	width: calc((100% - 60px) / 3);
+}
+.half {
+	width: calc((100% - 45px) / 2);
+}
+.quar {
+	width: calc((100% - 75px) / 4);
 }
