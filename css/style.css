@@ -188,11 +188,24 @@ div:hover {
 	overflow: visible;
 } */
 /*! Assignment 4 */
-a {
+/* a {
 	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	padding: 10px  15px;
 	background-color: rgb(42, 180, 147);
 	color: white;
 	border-bottom: 5px solid rgb(4, 84, 71);
+} */
+/* ! Lessons 22-26 */
+/*! Assignment 1 */
+div {
+	padding: 10px 15px;
+	border: 2px solid rgb(229, 69, 69);
+	font-family: sans-serif;
+	text-align: center;
+}
+p {
+	background-color: #eee;
+	border: inherit;
+	padding: inherit;
 }
