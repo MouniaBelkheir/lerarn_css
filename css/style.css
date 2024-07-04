@@ -173,8 +173,8 @@ div.title {
 .three {
 	text-transform: lowercase;
 } */
- /*! Assignment 3 */
-div {
+/*! Assignment 3 */
+/* div {
 	width: 400px;
 	background-color: #eee;
 	padding: 15px;
@@ -186,4 +186,13 @@ div {
 div:hover {
 	white-space: wrap;
 	overflow: visible;
+} */
+/*! Assignment 4 */
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 10px  15px;
+	background-color: rgb(42, 180, 147);
+	color: white;
+	border-bottom: 5px solid rgb(4, 84, 71);
 }
