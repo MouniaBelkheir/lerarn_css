@@ -270,18 +270,49 @@ p {
 	width: calc((100% - 75px) / 4);
 } */
 /*! Assignment 2 */
-div {
+/* div {
 	margin: 20px auto;
 	width: 300px;
 	font-weight: bold;
 	font-size: 1rem;
 	padding: 20px;
 	background-color: #908989; /* Get The Background From Image */
-	color: black;
-}
-.one {
+/* color: black; */
+/* } */
+/* .one {
 	background-color: hsla(0, 3%, 55%, 0.1);
 }
 .two {
 	opacity: 0.1;
+} */
+/* ! Lessons 30-33 */
+/*! Assignment 1 */
+div {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+.blue {
+	background-color: blue;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+}
+.green {
+	background-color: green;
+	z-index: 2;
+	top: 40px;
+	left: 40px;
+}
+.red {
+	background-color: red;
+	z-index: 4;
+	top: 60px;
+	left: 60px;
+}
+.black {
+	background-color: black;
+	z-index: 0;
+	top: 40px;
+	left: 20px;
 }
