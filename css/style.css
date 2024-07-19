@@ -316,43 +316,28 @@ p {
 	top: 40px;
 	left: 20px;
 } */
-/*! Assignment 2 */
-div {
+/* /*! Assignment 3 */
+.main {
 	width: 400px;
 	margin: auto;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	border: solid 2px;
-	border-color: red blue;
-	padding: 30px 20px;
-	position: relative;
-	top: 20px;
+list-style: none;
+}
+.grey {
+	width: full;
 	background-color: #eee;
-	text-align: center;
+margin: 20px;
+padding: 10px;
 }
-span {
-	color: white;
-	background-color: rgb(93, 93, 255);
-	position: absolute;
-	padding: 8px 15px;
+li {
+	background-color: white;
+	margin: 5px;
+	padding: 15px;
 }
-.top-left {
-	border-right: solid 2px red;
-	top: -15px;
-	left: -20px;
+.in {
+	list-style-position: inside;
+padding-left: 0;
 }
-.bottom-left {
-	border-left: red solid 2px;
-	top: -15px;
-	right: -20Px;
-}
-.top-right {
-	border-left: red solid 2px;
-	bottom: -15px;
-	right: -20px;
-}
-.bottom-right {
-	border-right: red solid 2px;
-	left: -20px;
-	bottom: -15px;
+ol, .in {
+	padding-top: 10px;
 }
