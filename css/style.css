@@ -426,7 +426,7 @@ div::before {
     left: -15px;
 } */
 /*! Assignment 3 */
-body {
+/* body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 p {
@@ -457,4 +457,25 @@ p::after {
     background-color: #dddddd;
     padding: 7px 10px;
     width: 50px;
+} */
+/*! Assignment 4 */
+p {
+	counter-increment: count;
+	background-color: #eee;
+	width: 400px;
+	padding:  15px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right: solid 4px #f44336;
+	position: relative;
+	left: 50px;
+}
+p::before {
+	position: absolute;
+	content: counter(count);
+	padding: 15px 20px ;
+	left: -40px;
+	top: 0;
+	/* margin-right: 10px; */
+	background-color: #f44336;
+	color: white;
 }
