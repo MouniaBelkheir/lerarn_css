@@ -382,9 +382,9 @@ button {
 .del {
 	background-color: #e91e63;
 } */
-/* ! Lessons 33-37 */
+/* ! Lessons 34-37 */
 /*! Assignment 1 */
-div {
+/* div {
 	width: 300px;
 	height: 60px;
 	margin: 10px auto;
@@ -397,4 +397,31 @@ font-size: larger;
 }
 :empty {
 	background-color: red;
+} */
+/*! Assignment 2 */
+div {
+	width: -moz-fit-content;
+	width: fit-content;
+	margin: auto;
+	padding: 15px 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+div::before {
+	content: "1";
+	position: absolute;
+	background-color: red;
+	color: white;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	align-content: center;
+	top: 50%;
+	margin-top: -15px;
+    left: -15px;
 }
