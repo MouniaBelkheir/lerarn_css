@@ -342,7 +342,7 @@ ol, .in {
 	padding-top: 10px;
 } */
 /* /*! Assignment 4 */
-table {
+/* table {
 	width: 700px;
 	margin: auto;
 	background-color: #eee;
@@ -381,4 +381,20 @@ button {
 }
 .del {
 	background-color: #e91e63;
+} */
+/* ! Lessons 33-37 */
+/*! Assignment 1 */
+div {
+	width: 300px;
+	height: 60px;
+	margin: 10px auto;
+	background-color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+}
+:empty {
+	background-color: red;
 }
