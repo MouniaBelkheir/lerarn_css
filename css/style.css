@@ -516,7 +516,7 @@ div::after {
 	padding: 2px;
 } */
 /*! Assignment 2 */
-div {
+/* div {
 	width: 100px;
     height: 100px;
     margin: auto;
@@ -527,4 +527,70 @@ div {
     border-bottom-right-radius: 5px 15px;
     border-bottom-left-radius: 50%;
     box-shadow: inset 0px 0px 10px 0px;
+} */
+/* ! Assignment 3 */
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 550px;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
 }
+.card {
+	background-color: #eeeeee;
+	border-radius: 2%;
+	margin: 15px;
+	height: 200px;
+	width: 180px;
+	position: relative;
+}
+.offer {
+	position: absolute;
+	background-color: #03a9f4;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	top: 5%;
+	left: 15px;
+	font-weight: 500;
+	font-size: 14px;
+	align-content: center;
+	margin-top: 5px;
+}
+.price {
+	width: 130px;
+	height: 130px;
+	background-color: #dddddd;
+	border-radius: 50%;
+	position: absolute;
+	top: 55px;
+    left: 25px;
+	align-content: center;
+    text-align: center;
+	font-size: x-large;
+}
+.vertical {
+	height: 200px;
+	width: 1px;
+	background-color: #03a9f4;
+	position: absolute;
+}
+.one::after {
+	content: "Or";
+    background-color: #03a9f4;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px 4px;
+    position: absolute;
+    top: 45%;
+    left: -14%;
+    letter-spacing: 0px;
+    z-index: 2;
+}
+
+
