@@ -529,7 +529,7 @@ div::after {
     box-shadow: inset 0px 0px 10px 0px;
 } */
 /* ! Assignment 3 */
-.container {
+/* .container {
 	display: flex;
 	flex-direction: row;
 	width: 550px;
@@ -591,6 +591,49 @@ div::after {
     left: -14%;
     letter-spacing: 0px;
     z-index: 2;
+} */
+/* ! Lessons 42-45 */
+/*! Assignment 1 */
+.up {
+	width: 400px;
+	height: 200px;
+	background-color: #f2f2f4;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	border-radius: 2%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	top: 50px;
+	transition: top 500ms ease-in;
+}
+.up:hover {
+	top: 70px;
+}
+.down {
+	padding: 20px;
+	background-color: #dededc;
+	margin-top: 15px;
+	position: relative;
+	top: 0;
+	transition: top 500ms ease-in 500ms;
+}
+.up:hover .down {
+	top: 30px;
+}
+/* Vendor prefixes for compatibility */
+.up,
+.down {
+	-webkit-transition: top 0.5s ease-in;
+	-moz-transition: top 0.5s ease-in;
+	-o-transition: top 0.5s ease-in;
+	-ms-transition: top 0.5s ease-in;
 }
 
-
+.down {
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	-ms-transition-delay: 0.5s;
+}
