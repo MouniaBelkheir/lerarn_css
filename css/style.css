@@ -459,7 +459,7 @@ p::after {
     width: 50px;
 } */
 /*! Assignment 4 */
-p {
+/* p {
 	counter-increment: count;
 	background-color: #eee;
 	width: 400px;
@@ -476,6 +476,42 @@ p::before {
 	left: -40px;
 	top: 0;
 	/* margin-right: 10px; */
-	background-color: #f44336;
+/* background-color: #f44336;
 	color: white;
+}  */
+/* ! Lessons 38-41 */
+/*! Assignment 1 */
+
+div {
+	counter-increment: count;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+	left: 20%;
+	display: inline-block;
+	margin: 20px;
+	position: relative;
+	border-radius: 50%;
+	border: black solid 2px;
+	box-shadow:  6px 6px #2090e9 ,-6px -6px #e91e63
+}
+div::before {
+	content: "Element";
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+div::after {
+	content: counter(count);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: -10px;
+    left: 35px;
+	padding: 2px;
 }
