@@ -673,7 +673,7 @@ div {
 } */
 /* ! Lessons 46-53 */
 /*! Assignment 1 */
-div {
+/* div {
 	width: 100px;
 	height: 100px;
 	background-color: #eeeeee;
@@ -687,4 +687,27 @@ div {
 	color: #ff5722;
 	font-weight: bold;
 	box-shadow: #ff5722 5px 0px 0px 0px, #03a9f4 -5px 0px 0px 0px;
+} */
+/*! Assignment 2 */
+.parent {
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #eee;
+	align-content: space-between;
+	padding: 10px;
+	border-radius: 1%;
+
+}
+.parent div {
+	background-color: #f44336;
+	width: 28%;
+	color: white;
+	justify-content: center;
+	padding: 10px;
+	margin: auto;
+	display: flex;
+	border-radius: 2%;
 }
