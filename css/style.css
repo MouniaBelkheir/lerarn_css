@@ -786,7 +786,7 @@ div {
 	align-self: flex-end;
 } */
 /*! Assignment 5 */
-.parent {
+/* .parent {
 	width: 600px;
 	height: 300px;
 	padding: 10px;
@@ -821,4 +821,63 @@ div {
 	background-color: #673ab7;
 	align-self: flex-end;
 	order: 1;
+} */
+/*! Assignment 6 */
+.page {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #eeeeee;
+	width: 700px;
+	--mainColor: #dddddd;
+	--mainPadding: 10px;
+	padding: 5px;
+}
+.page div {
+	margin: 2px;
+	border-radius: 2px;
+}
+.header {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width: 10%;
+	background-color: var(--mainColor);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: var(--mainPadding);
+}
+.links {
+	width: 90%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	background-color: var(--mainColor);
+	margin: 2px;
+	padding: 0;
+}
+li {
+	padding: var(--mainPadding);
+}
+.main-area {
+	display: flex;
+	width: 100%;
+}
+.content {
+	background-color: var(--mainColor);
+	width: 70%;
+	padding: var(--mainPadding);
+	height: 300px;
+}
+.sidebar {
+	background-color: var(--mainColor);
+	flex-grow: 1;
+	padding: var(--mainPadding);
+	height: 300px;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--mainColor);
+	padding: var(--mainPadding);
 }
