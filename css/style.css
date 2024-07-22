@@ -880,4 +880,5 @@ li {
 	justify-content: space-between;
 	background-color: var(--mainColor);
 	padding: var(--mainPadding);
+	width: 97%;
 }
