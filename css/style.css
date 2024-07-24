@@ -823,7 +823,7 @@ div {
 	order: 1;
 } */
 /*! Assignment 6 */
-.page {
+/* .page {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #eeeeee;
 	width: 700px;
@@ -881,4 +881,63 @@ li {
 	background-color: var(--mainColor);
 	padding: var(--mainPadding);
 	width: 97%;
+} */
+/* ! Lessons 54-56 */
+/* ! Assignment 1 */
+div {
+	width: 600px;
+	margin: 20px auto;
+	background-color: #eee;
+	font-size: xx-large;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3px;
+	border-right: 5px solid #673ab7;
+	border-left: 5px solid #f44336;
+	position: relative;
+	height: 100px;
+	align-content: center;
+}
+div::first-letter {
+	color: red;
+}
+div::before {
+	content: "";
+	position: absolute;
+	background-color: red;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(
+		to right,
+		#f44336 20%,
+		#2196f3 20%,
+		#2196f3 40%,
+		#4caf50 40%,
+		#4caf50 60%,
+		#e91e63 60%,
+		#e91e63 80%,
+		#673ab7 80%
+	);
+}
+div::after {
+	content: "";
+	position: absolute;
+	background-color: red;
+	top: 95px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(
+		to right,
+		#f44336 20%,
+		#2196f3 20%,
+		#2196f3 40%,
+		#4caf50 40%,
+		#4caf50 60%,
+		#e91e63 60%,
+		#e91e63 80%,
+		#673ab7 80%
+	);
 }
