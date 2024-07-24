@@ -884,7 +884,7 @@ li {
 } */
 /* ! Lessons 54-56 */
 /* ! Assignment 1 */
-div {
+/* div {
 	width: 600px;
 	margin: 20px auto;
 	background-color: #eee;
@@ -940,4 +940,48 @@ div::after {
 		#e91e63 80%,
 		#673ab7 80%
 	);
+} */
+/* ! Assignment 2 */
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	margin: auto;
+	position: relative;
+}
+input {
+	padding: 10px;
+	margin: 0;
+	border-radius: 2px;
+	margin-top: 20px;
+	background-color: #f4f4f4;
+	border: none;
+	caret-color: red;
+	position: relative;
+	width: 600px;
+	box-sizing: border-box;
+}
+input:focus {
+	border: none;
+	outline: none;
+}
+.one::after,
+.two::after,
+.three::after {
+	content: "";
+	position: absolute;
+	width: 600px;
+	height: 5px;
+	background: linear-gradient(to right, #f44336 50%, #009688 50%);
+	left: 0;
+	width: 100%;
+}
+.one::after {
+	top: 55px;
+}
+.two::after {
+	top: 110px;
+}
+.three::after {
+	top: 165px;
 }
