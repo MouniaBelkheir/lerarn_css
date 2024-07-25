@@ -1096,7 +1096,7 @@ footer::before {
 } */
 /*! Assignment 4 */
 
-.grid {
+/* .grid {
 	background-color: #ddd;
 	padding: 20px;
 	width: 800px;
@@ -1144,4 +1144,23 @@ footer::before {
 .eight {
 	grid-row: 1;
 	grid-column: 1 /4;
+} */
+
+/*! Assignment 5 */
+.grid {
+	background-color: #ddd;
+	padding: 20px;
+	width: 800px;
+	height: 400px;
+	margin: auto;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-content: space-between;
+	text-align: center;
+	gap: 10px;
+}
+.grid div {
+	background-color: #e91e63;
 }
