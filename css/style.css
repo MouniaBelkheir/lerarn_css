@@ -987,7 +987,7 @@ input:focus {
 } */
 /* ! Lessons 57-64 */
 /*! Assignment 1 */
-.grid {
+/* .grid {
 	background-color: #ddd;
 	padding: 20px;
 	width: 800px;
@@ -1011,5 +1011,66 @@ input:focus {
 }
 .grid div::before {
 	content: "Element " counter(count);
+	position: absolute;
+} */
+/*! Assignment 2 */
+.layout {
+	width: 100%;
+	height: 97vh;
+	display: grid;
+	grid-template:
+		"header header header header header header"
+		"section section section section section aside"
+		"footer footer footer footer footer footer"
+		/ 8% 1fr 8%;
+	color: white;
+	font-size: x-large;
+}
+header,
+footer {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+}
+section,
+aside {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 10px;
+}
+header {
+	grid-area: header;
+	background-color: #03a9f4;
+}
+section {
+	grid-area: section;
+	background-color: #ff5722;
+}
+aside {
+	grid-area: aside;
+	background-color: #607d8b;
+}
+footer {
+	grid-area: footer;
+	background-color: #009688;
+}
+header::before {
+	content: "Header";
+	position: absolute;
+}
+section::before {
+	content: "Section";
+	position: absolute;
+}
+aside::before {
+	content: "Aside";
+	position: absolute;
+}
+footer::before {
+	content: "Footer";
 	position: absolute;
 }
