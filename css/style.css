@@ -1271,6 +1271,7 @@ div::before {
 	left: 0;
 } */
 /* !Assignment 2 */
+
 div {
 	height: 200px;
 	width: 200px;
@@ -1308,4 +1309,23 @@ div::after {
 	justify-content: center;
 	align-items: center;
 	transform: translate(-20px, -133px); */
+}
+/* !Assignment 3*/
+div:hover::before {
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
+div:hover::after {
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
+	transition-delay: 0.3s;
+}
+div:not(:hover)::before {
+	transform: rotate(0deg);
+	transition: 0.5s;
+}
+div:not(:hover)::after {
+	transform: rotate(0deg);
+	transition-duration: 0.5s;
+	transition-delay: 0.3s;
 }
