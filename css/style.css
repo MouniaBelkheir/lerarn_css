@@ -1236,7 +1236,7 @@ h2 {
 } */
 /*! Lessons 65-67 */
 /* !Assignment 1 */
-div {
+/* div {
 	width: 300px;
 	height: 200px;
 	margin: 50px auto;
@@ -1269,4 +1269,43 @@ div::before {
 	position: absolute;
 	top: 0;
 	left: 0;
+} */
+/* !Assignment 2 */
+div {
+	height: 200px;
+	width: 200px;
+	margin: 30px auto;
+	background-color: #eee;
+	border-radius: 50%;
+	text-align: center;
+	align-content: center;
+	font-size: x-large;
+	font-weight: bold;
+	position: relative;
+}
+div::before {
+	content: "";
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: solid 10px;
+	border-color: #e91e63 #e91e63 #e91e63 transparent;
+	top: -10px;
+	left: -10px;
+}
+div::after {
+	content: "";
+	position: absolute;
+	height: 219px;
+	width: 219px;
+	border-radius: 50%;
+	border: solid 10px;
+	border-color: #03a9f4 transparent #03a9f4 #03a9f4;
+	top: -19px;
+	left: -20px;
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translate(-20px, -133px); */
 }
