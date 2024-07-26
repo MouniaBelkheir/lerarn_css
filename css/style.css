@@ -1165,7 +1165,7 @@ footer::before {
 	background-color: #e91e63;
 } */
 /* ! Assignment 6 */
-.main {
+/* .main {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: auto auto auto auto;
@@ -1233,4 +1233,40 @@ h2 {
 }
 .ten {
 	grid-area: 4/4/5/5;
+} */
+/*! Lessons 65-67 */
+/* !Assignment 1 */
+div {
+	width: 300px;
+	height: 200px;
+	margin: 50px auto;
+	text-align: center;
+	align-content: center;
+	background-color: #eee;
+	color: #03a9f4;
+	font-size: 46px;
+	font-weight: bold;
+	position: relative;
+}
+div::after {
+	content: "";
+	width: 300px;
+	height: 200px;
+	transform: rotate(-8deg);
+	background-color: #03a9f4;
+	z-index: -1;
+	position: absolute;
+	top: -1px;
+	left: 3px;
+}
+div::before {
+	content: "";
+	width: 300px;
+	height: 200px;
+	transform: rotate(8deg);
+	background-color: #e91e63;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
