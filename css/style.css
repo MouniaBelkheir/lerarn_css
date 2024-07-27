@@ -1459,7 +1459,7 @@ h1::before {
 	transform: matrix(0.98, -0.2, -0.2, 1, -35, -26);
 } */
 /*! Assignment 2 */
-h1 {
+/* h1 {
 	background-color: #009688;
 	--mainColor: #009688;
 	color: white;
@@ -1493,4 +1493,52 @@ h1::after {
 	transform: skewX(23deg);
 	left: -60px;
 	top: 0px;
+} */
+/*! Assignment 3  */
+/* .class {
+	* matrix(3, 0.2679, 0, 3, 20, 100);
+	$ matrix(
+	*1.scaleX,
+    *2.skewX,
+    *3.skewY,
+    *4.scaleY,
+    *5.translateX,
+    *6.translateY
+	$)
+	 } */
+/*! Assignment 4 */
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	--mainColor: #607d8b;
+}
+div {
+	width: 200px;
+	height: 200px;
+	background-color: var(--mainColor);
+	outline: 3px solid white;
+	position: relative;
+	border-bottom: 5px solid black;
+	}
+div::before {
+	content: "";
+	width: 97px;
+	height: 97px;
+	color: white;
+	position: absolute;
+	top: 25%;
+	left: 75%;
+	background-color: black;
+	border-bottom: 3px solid white;
+	border-left: white 3px solid;
+	transform: matrix(1, -1, 1, 1, -100, -100);
+}
+div::after {
+	content: "Elzero";
+	position: absolute;
+	color: white;
+	left: 10px;
+	bottom: 5px;
 }
