@@ -1915,16 +1915,14 @@ span {
 	bottom: 7px;
 	right: 7px;
 	border-radius: 3px;
-	animation: l 1s linear 1 3s backwards;
+	animation: l 2s linear 1 3s backwards;
 }
 @keyframes l {
 	0% {
 		opacity: 0;
-	
 	}
 	5% {
 		opacity: 1;
-		
 	}
 	30% {
 		transform: translate(-150px, 0);
