@@ -1622,7 +1622,7 @@ div::after {
 } */
 /*! Lessons 74-77 */
 /*! Assignment 1*/
-@keyframes spin {
+/* @keyframes spin {
 	100% {
 		-moz-transform: rotate(1turn);
 		-o-transform: rotate(1turn);
@@ -1695,5 +1695,86 @@ div::after {
 	position: absolute;
 	border-radius: 50%;
 	border: 10px solid #fca000;
+	border-bottom: 10px solid transparent;
+} */
+/*! Assignment 2*/
+@keyframes spin {
+	100% {
+		-moz-transform: rotate(1turn);
+		-o-transform: rotate(1turn);
+		-webkit-transform: rotate(1turn);
+		-ms-transform: rotate(1turn);
+		transform: rotate(360deg);
+	}
+}
+div {
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+	position: absolute;
+	border-radius: 50%;
+	border: 10px solid #2290fd;
+	border-left: 10px solid transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div,
+div:hover::before,
+div:hover::after {
+	-moz-animation-name: spin;
+	-o-animation-name: spin;
+	-webkit-animation-name: spin;
+	-ms-animation-name: spin;
+	animation-name: spin;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	animation-play-state: paused;
+}
+div:hover,
+div:hover::before,
+div:hover::after {
+	-moz-animation-play-state: running;
+	-o-animation-play-state: running;
+	-webkit-animation-play-state: running;
+	-ms-animation-play-state: running;
+	animation-play-state: running;
+}
+div::before {
+	content: "";
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	border-radius: 50%;
+	border: 10px solid #fca000;
+	border-top: 10px solid transparent;
+}
+div::after {
+	content: "";
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border-radius: 50%;
+	border: 10px solid black;
 	border-bottom: 10px solid transparent;
 }
