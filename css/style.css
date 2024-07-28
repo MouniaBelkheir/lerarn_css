@@ -1926,7 +1926,7 @@ span {
 		opacity: 1;
 		
 	}
-	50% {
+	30% {
 		transform: translate(-150px, 0);
 	}
 	90% {
