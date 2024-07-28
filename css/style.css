@@ -1915,25 +1915,22 @@ span {
 	bottom: 7px;
 	right: 7px;
 	border-radius: 3px;
-	animation: l 3s linear 3s 1 both;
+	animation: l 2s linear 1 3s forwards;
 }
 @keyframes l {
 	0% {
 		opacity: 0;
 	}
-	20% {
+	5% {
 		opacity: 1;
 	}
-	21% {
+	50% {
 		transform: translate(-150px, 0);
-		opacity: 1;
-	}
-	21% {
-		transform: translate(-150px, 0);
-		opacity: 1;
 	}
 	90% {
 		transform: translate(-150px, -250px);
+	}
+	95% {
 		opacity: 1;
 	}
 	100% {
