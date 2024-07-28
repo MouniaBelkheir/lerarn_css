@@ -1625,7 +1625,7 @@ div::after {
 @keyframes spin {
 	100% {
 		-moz-transform: rotate(1turn);
-		-o-transform: translate(1turn);
+		-o-transform: rotate(1turn);
 		-webkit-transform: rotate(1turn);
 		-ms-transform: rotate(1turn);
 		transform: rotate(360deg);
