@@ -1946,7 +1946,7 @@ span {
 	background-color: #323234;
 } */
 /* ! loader */
-.container {
+/* .container {
 	display: flex;
 	width: 200px;
 	height: 50px;
@@ -1979,12 +1979,14 @@ span {
 		opacity: 1;
 	}
 }
-.one {
-	/* animation-delay: 1s; */
-}
 .two {
 	animation-delay: 0.3s;
 }
 .three {
 	animation-delay: 0.6s;
+} */
+/*! Lessons 78-82 */
+/*! Assignment 1 */
+div.main.red {
+	color: red;
 }
