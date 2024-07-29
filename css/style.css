@@ -1999,8 +1999,17 @@ span {
 	color: red;
 } */
 /*! Assignment 4 */
-div:nth-of-type(3):not(.parent div[title="Elzero"]),
+/* div:nth-of-type(3):not(.parent div[title="Elzero"]),
 div[title="Hello"],
 div[title="HTML"] {
+	color: red;
+} */
+/*! Assignment 5 */
+/* .no-need:nth-child(n-) {
+	color: red;
+} */
+div[title="Elzero"]:last-child:not(.no-need:last-child):not(
+		.no-need div:first-of-type
+	) {
 	color: red;
 }
