@@ -1995,6 +1995,12 @@ span {
 	color: red;
 } */
 /*! Assignment 3 */
-.parent:nth-child(2) {
+/* .parent:nth-child(2) {
+	color: red;
+} */
+/*! Assignment 4 */
+div:nth-of-type(3):not(.parent div[title="Elzero"]),
+div[title="Hello"],
+div[title="HTML"] {
 	color: red;
 }
