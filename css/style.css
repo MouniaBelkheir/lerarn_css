@@ -1987,6 +1987,10 @@ span {
 } */
 /*! Lessons 78-82 */
 /*! Assignment 1 */
-div.main.red {
+/* div.main.red {
+	color: red;
+} */
+/*! Assignment 2*/
+div:not(:only-child):last-child {
 	color: red;
 }
