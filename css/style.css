@@ -1991,6 +1991,10 @@ span {
 	color: red;
 } */
 /*! Assignment 2*/
-div:not(:only-child):last-child {
+/* div:not(:only-child):last-child {
+	color: red;
+} */
+/*! Assignment 3 */
+.parent:nth-child(2) {
 	color: red;
 }
