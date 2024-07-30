@@ -2204,7 +2204,7 @@ p {
 } */
 /* ! Lessons 86-88 */
 /*! Assignment 1 */
-.center-flex {
+/* .center-flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -2233,4 +2233,38 @@ div {
 	background-color: #eee;
 	color: black;
 	
+} */
+/*! Assignment 2 */
+div {
+	background-color: gainsboro;
+	padding: 20px;
+	margin: 40px;
+	text-align: left;
+	display: flex;
+	/* justify-content: center; */
+	align-content: center;
+	position: relative;
+	justify-items: flex-start;
+}
+.arrow::before {
+	width: 20px;
+	height: 20px;
+	content: "";
+	position: absolute;
+	background-color: gainsboro;
+	transform: rotate(45deg);
+}
+.top::before {
+	top: -10px;
+	left: calc(50% - 10px);
+}
+.right::before {
+	right: -10px;
+}
+.bottom::before {
+	bottom: -10px;
+	left: calc(50% - 10px);
+}
+.left::before {
+	left: -10px;
 }
